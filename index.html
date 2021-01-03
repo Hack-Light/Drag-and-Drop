@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="block source">
+      <ul class="ul-source" id="source">
+        <li draggable="true" id="li1">meat</li>
+        <li draggable="true" id="li2">fish</li>
+        <li draggable="true" id="li3">vegetables</li>
+        <li draggable="true" id="li4">horny</li>
+        <li draggable="true" id="li5">least</li>
+      </ul>
+    </div>
+    <div class="block dest">
+      <ul class="ul-dest" data-role="drop-target"></ul>
+    </div>
+  </body>
+</html>

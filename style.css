@@ -1,0 +1,14 @@
+.block {
+  border: 1px solid black;
+  height: 200px;
+}
+
+.over {
+  border: 1px solid green;
+}
+
+.ul-dest {
+  width: 50%;
+  height: 200px;
+  border: 1px solid red;
+}
